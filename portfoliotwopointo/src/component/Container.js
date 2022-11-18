@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Project from './pages/Project';
+import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Navigation from './pages/Navigation';
-import Header from './Header';
 import Footer from './Footer';
 
 
@@ -16,25 +15,26 @@ export default function Container() {
     if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'Project') {
-      return <Project />;
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
     }
     if (currentPage === 'Contact') {
       return <Contact />;
     }
-    return <Resume />;
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
-      <Header/>
-      {/* We are passing the currentPage from state and the function to update it */}
+    <>
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* We are passing the currentPage from state and the function to update it */}
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
       <Footer/>
-    </div>
+    </>
   );
 }

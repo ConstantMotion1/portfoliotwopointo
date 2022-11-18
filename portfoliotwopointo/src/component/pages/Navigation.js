@@ -1,20 +1,29 @@
 import React from "react";
+import logo from '../../images/imagelogo.png';
+import logo2 from '../../images/namelogo.png';
+
 
 export default function Navigation({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav justify-content-end">
-      <li className="nav-item">
+    <nav className="navbar bg-dark">
+    <div className="container">
+      <a className="navbar-brand">
+        <img id="logo" src={logo} alt="logo" width="110" height="110"/>
+        <h5 id="navi" className="fs-2">Constan Fernando</h5>
+      </a>
+    <ul className="nav justify-content-end fs-5">
+      <li className="nav-item" id="navi">
         <a
-          href="#home"
-          onClick={() => handlePageChange("AboutMe")}
-          className={currentPage === "AboutMe" ? "nav-link active" : "nav-link"}
+          href="#about"
+          onClick={() => handlePageChange("About")}
+          className={currentPage === "About" ? "nav-link active" : "nav-link"}
         >
           Profile
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item" id="navi">
         <a
-          href="#about"
+          href="#project"
           onClick={() => handlePageChange("Portfolio")}
           className={
             currentPage === "Portfolio" ? "nav-link active" : "nav-link"
@@ -23,18 +32,18 @@ export default function Navigation({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item" id="navi">
         <a
-          href="#blog"
+          href="#contact"
           onClick={() => handlePageChange("Contact")}
           className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
         >
           Contact
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item" id="navi">
         <a
-          href="#contact"
+          href="#resume"
           onClick={() => handlePageChange("Resume")}
           className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
         >
@@ -42,5 +51,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </div>
+  </nav>
   );
-};
+}
