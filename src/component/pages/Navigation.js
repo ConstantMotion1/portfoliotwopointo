@@ -9,8 +9,8 @@ export default function Navigation({ currentPage, handlePageChange }) {
     <div className="container">
       <a className="navbar-brand">
         <img id="logo" src={logo} alt="logo" width="110" height="110"/>
-        <h5 id="navi" className="fs-2">Constan Fernando</h5>
       </a>
+      <h5 id="naviname" className="fs-2">Constan Fernando</h5>
     <ul className="nav justify-content-end fs-5">
       <li className="nav-item" id="navi">
         <a

@@ -1,0 +1,59 @@
+#navi {
+  font-family: 'League Script', cursive;
+  color: aliceblue; 
+}
+
+#naviname {
+  font-family: 'League Script', cursive;
+  color: aliceblue; 
+  margin-right: 300px;
+  margin-top: 20px;
+}
+
+#navi a {
+  color: aliceblue;
+}
+
+#navi a:hover {
+  text-shadow: lightseagreen 1px 0 15px;
+}
+
+#navbar {
+  display: flex;
+}
+
+.navbar-brand {
+  display:inline-block;
+}
+
+#cssCarousel {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#slidename {
+  color:black
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  background-color: #212529;
+}
+
+.lead {
+  padding: 200px;
+  background-color: #FAF9F6;
+}
+
+#resume {
+  display:flex;
+  height: 700px;
+  width: 700px;
+  background-color: #FAF9F6;
+}
+/* #logo {
+  box-shadow: white 1px 0 10px;
+  border-radius: 60px;
+} */
