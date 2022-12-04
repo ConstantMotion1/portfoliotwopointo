@@ -4,7 +4,7 @@ import Project1 from '../../images/musichub.png';
 import Project2 from '../../images/PJ-Loginscreen.png';
 import PassGen from '../../images/passwordgen.png';
 import TechBlog from '../../images/techblog.png';
-import WeatherApp from '../../images/weatherapp.png';
+import Project3 from '../../images/ezdossier.png';
 import githublink from '../../images/github.png';
 import githublinkin from '../../images/githubinvert.png';
 import websitelink from '../../images/website.png';
@@ -76,15 +76,15 @@ export default function Portfolio() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={WeatherApp}
+          src={Project3}
           alt="Fifth slide"
         />
         <Carousel.Caption>
-        <a href="https://constantmotion1.github.io/Module6Challenge/">
-            <img id="link" src={websitelink}/>
+        <a href="https://ezdossier.herokuapp.com/">
+            <img id="link" src={websitelinkin}/>
           </a>
-          <a href="https://github.com/ConstantMotion1/Module6Challenge">
-            <img id="link" src={githublink}/>
+          <a href="https://github.com/ConstantMotion1/EZDossier">
+            <img id="link" src={githublinkin}/>
           </a>
         </Carousel.Caption>
       </Carousel.Item>
