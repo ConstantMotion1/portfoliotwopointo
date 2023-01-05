@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/portfoliotwopointo/static/css/main.fb05fbc0.css",
-    "main.js": "/portfoliotwopointo/static/js/main.36cb9ed6.js",
-    "static/media/ConstanFernandoResume-1.png": "/portfoliotwopointo/static/media/ConstanFernandoResume-1.550ca3d9b852563d0ab4.png",
+    "main.js": "/portfoliotwopointo/static/js/main.62a2fea0.js",
     "static/media/ezdossier.png": "/portfoliotwopointo/static/media/ezdossier.db6ce0e32423880bd412.png",
     "static/media/PJ-Loginscreen.png": "/portfoliotwopointo/static/media/PJ-Loginscreen.fd17d9ee22c9934901e4.png",
+    "static/media/ConstanFernandoResume-1.png": "/portfoliotwopointo/static/media/ConstanFernandoResume-1.4b14481a59012bcddbef.png",
     "static/media/ConstanFernandoResume.pdf": "/portfoliotwopointo/static/media/ConstanFernandoResume.a092c1d35b156ac86b3b.pdf",
     "static/media/musichub.png": "/portfoliotwopointo/static/media/musichub.15bb47836e283a88cc06.png",
     "static/media/imagelogo.png": "/portfoliotwopointo/static/media/imagelogo.5782afef8e17b9115115.png",
@@ -13,10 +13,10 @@
     "static/media/namelogo.png": "/portfoliotwopointo/static/media/namelogo.9400107b494e78ebce78.png",
     "index.html": "/portfoliotwopointo/index.html",
     "main.fb05fbc0.css.map": "/portfoliotwopointo/static/css/main.fb05fbc0.css.map",
-    "main.36cb9ed6.js.map": "/portfoliotwopointo/static/js/main.36cb9ed6.js.map"
+    "main.62a2fea0.js.map": "/portfoliotwopointo/static/js/main.62a2fea0.js.map"
   },
   "entrypoints": [
     "static/css/main.fb05fbc0.css",
-    "static/js/main.36cb9ed6.js"
+    "static/js/main.62a2fea0.js"
   ]
 }
